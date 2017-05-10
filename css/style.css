@@ -1,0 +1,51 @@
+// reset domyślnych ustawien przegladarki
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+li,ul {
+	list-style: none;
+}
+
+q:before,q:after,
+blockquote:before,blockquote:after {
+	content: "";
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+ul {
+    width: 3300px;
+}
+
+
+li {  
+    text-align: center;
+    list-style-type: none;
+    float: left;
+}
+
+.container {
+    text-align: center;
+    padding: 10px 0 0 20px;
+}
+
+#carousel {
+    text-align: center;
+    margin-top: 1px;
+	margin-bottom: 1px;
+	max-width: 640px;
+	max-height: 360px;
+    border-style: solid;
+    border-width: 2px;
+
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
