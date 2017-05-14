@@ -14,9 +14,9 @@ $(function(){
         carouselList.animate({'marginLeft':-640}, 500, moveFirstSlide);
     }
 
-    setTimeout(changeSlide, 3000); //po 3 sek. zmieni slajd jeden raz
+    //setTimeout(changeSlide, 3000); //po 3 sek. zmieni slajd jeden raz
     setInterval(changeSlide, 3000); //co 3 sek. wykona funkcję zmieniającą slajd. 
-
+   
 });
 
 

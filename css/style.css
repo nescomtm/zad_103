@@ -1,33 +1,19 @@
-// reset domyślnych ustawien przegladarki
-
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
 li,ul {
 	list-style: none;
 }
-
-q:before,q:after,
-blockquote:before,blockquote:after {
-	content: "";
-}
-
 
 * {
     margin: 0;
     padding: 0;
 }
 
-
+/*/ ilosc elementow w ul * szerokosc czyli 640*5=3200 */
 ul {
-    width: 3300px;
+    width: 3200px;
 }
 
-
 li {  
-    text-align: center;
+    
     list-style-type: none;
     float: left;
 }
